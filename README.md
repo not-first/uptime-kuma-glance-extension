@@ -22,7 +22,7 @@ services:
     env_file: .env
 ```
 #### Environment Variables
-This widget must be set up by providing environment variables, which can be added to your existing glance .env file:
+This widget must be set up by providing an environment variable, which can be added to your existing glance .env file:
 ```env
 UPTIME_KUMA_URL=http://uptime-kuma.example.com
 ```
