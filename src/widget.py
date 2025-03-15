@@ -21,7 +21,7 @@ def parse_widget_html(data):
         dashboard_url = f"{config.UPTIME_KUMA_URL}/dashboard/{monitor_id}"
 
         # Show response time only for up services, ERROR for down services
-        response_display = f"{response_time}ms" if status_style == "ok" else "<span class='color-negative'>ERROR</span>"
+        response_display = f"{response_time}ms" if status_style == "ok" else "<span class='color-negative'>DOWN</span>"
 
         # Create status icon based on monitor status
         if status_style == "ok":
