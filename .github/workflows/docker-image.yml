@@ -1,4 +1,3 @@
-# copied over from restic-glance-extension
 name: Build and Push Docker Image
 
 on:
