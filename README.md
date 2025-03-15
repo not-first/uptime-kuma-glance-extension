@@ -1,7 +1,9 @@
 # Uptime Kuma Glance Extension
 _An extension widget API for the [Glance](https://github.com/glanceapp/glance) dashboard._
 
-A widget that displays your Uptime Kuma status page within Glance. Shows all monitors with their current status and response time.
+![Widget screenshot](https://github.com/user-attachments/assets/21cbbf7b-bc1b-4643-bcd1-c1db1fe55248)
+
+A widget that displays your [Uptime Kuma](https://github.com/louislam/uptime-kuma) services on a specific status page within Glance. Shows all monitors with their current status and response time.
 
 ## Setup
 ### Docker Compose
