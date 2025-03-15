@@ -1,0 +1,15 @@
+services:
+  glance:
+    image: glanceapp/glance
+    # ...
+
+  uptime-kuma-extension:
+    image: ghcr.io/not-first/uptime-kuma-glance-extension
+    ports:
+      - "8676:8676"
+    restart: unless-stopped
+    env_file: .env
+    labels:
+      glance.hide: false
+      glance.name: Uptime Kuma Extension
+      glance.parent: glance
