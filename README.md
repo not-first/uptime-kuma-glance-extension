@@ -28,11 +28,11 @@ UPTIME_KUMA_URL=http://uptime-kuma.example.com
 ```
 
 ### Glance Config
-Next, add the extension widget into your glance page by creating an environment variable storing the IP and port for the API, and adding this to your `glance.yml`.
+Next, add the extension widget into your glance page by adding this to your `glance.yml`.
 ```yml
 - type: extension
   title: Uptime Status
-  url: http://${UPTIME_KUMA_EXTENSION_URL}/{status-page-slug}
+  url: http://uptime-kuma-extension:8676/{status-page-slug}
   cache: 5m
   allow-potentially-dangerous-html: true
 ```
