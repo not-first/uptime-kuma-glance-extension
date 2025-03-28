@@ -1,10 +1,11 @@
 # Uptime Kuma Glance Extension
+> [!IMPORTANT]  
+> Due to improvements in Glance's custom-api widget API, running a seperate extension is no longer needed to render this widget. To use the new version, simply use the Uptime Kuma widget found in the [community widgets repo](https://github.com/glanceapp/community-widgets).
+
 _An extension widget API for the [Glance](https://github.com/glanceapp/glance) dashboard._
 
 ![Widget screenshot](https://github.com/user-attachments/assets/21cbbf7b-bc1b-4643-bcd1-c1db1fe55248)
 
-> [!IMPORTANT]  
-> Due to improvements in Glance's custom-api widget API, running a seperate extension is no longer needed to render this widget. To use the new version, simply use the Uptime Kuma widget found in the [community widgets repo](https://github.com/glanceapp/community-widgets).
 
 A widget that displays your [Uptime Kuma](https://github.com/louislam/uptime-kuma) services on a specific status page within Glance. Shows all monitors with their current status and response time.
 
